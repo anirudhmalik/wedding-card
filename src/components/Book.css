@@ -1,0 +1,20 @@
+.page-image {
+  width: 100%;
+  height: 100%;
+}
+.image {
+  width: 100%;
+  height: 100%;
+}
+@media screen and (max-width: 760px) {
+  .page-image {
+    width: 100%;
+    height: 500px;
+  }
+}
+@media screen and (min-width: 760px) {
+  .page-image {
+    width: 100%;
+    height: 100vh;
+  }
+}
