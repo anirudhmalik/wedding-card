@@ -93,9 +93,11 @@ const Location = styled(motion.button)`
     soundPlay = (src) => {
       const sound = new Howl({
         src,
+        html5:true,
         onend: function() {
           const sound2 = new Howl({
-            src:audio2
+            src: audio2,
+            html5:true
           });
            sound2.play();
         }
